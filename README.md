@@ -18,6 +18,8 @@ En esta práctica, se plantea un CTF (Capture the Flag) en el que se deberán ap
 - Utilizar herramientas como SonarCloud o Cutter para identificar y explotar vulnerabilidades en la aplicación.
 - Utilizar diferentes técnicas de hacking, como inyecciones, para conseguir la flag.
 
+Los códigos se encuentran en https://github.com/jrhjavier/MDS/tree/master/Practica3_CTF/src/main/java/es/urjc/etsii/metodologias/selenium
+
 ## Instalación
 
 1. Clona el repositorio en tu máquina local:
