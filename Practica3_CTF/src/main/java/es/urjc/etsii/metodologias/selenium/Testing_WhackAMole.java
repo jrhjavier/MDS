@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.Objects;
 
-public class WhackAMole {
+public class Testing_WhackAMole {
     public static void main(String[] args) throws InterruptedException {
         var driver = createWebDriver();
         String score = "10000";

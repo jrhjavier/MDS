@@ -1,10 +1,10 @@
-package org.example.unittests;
+package es.urjc.etsii.metodologias.selenium;
 
-import java.util.Set;
+
 import java.util.logging.Logger;
 
 @SuppressWarnings("ALL") // because everyone knows warnings can be safely ignored, right?
-public class SecureCalculator {
+public class Testing_SecureCalculator {
 
     private Logger log;
 
@@ -21,13 +21,13 @@ public class SecureCalculator {
     /**
      * Create a new calculator with debug logging disabled
      */
-    public SecureCalculator() {}
+    public Testing_SecureCalculator() {}
 
     /**
      * Create a new calculator with debug logging enabled
      * @param log
      */
-    public SecureCalculator(Logger log) {
+    public Testing_SecureCalculator(Logger log) {
         this.log = log;
     }
 

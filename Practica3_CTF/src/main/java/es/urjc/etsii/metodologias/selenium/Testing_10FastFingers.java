@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class FastFingers {
+public class Testing_10FastFingers {
     public static void main(String[] args) throws InterruptedException {
 
         // Creamos driver y visitamos una URL en el navegador
@@ -36,12 +36,10 @@ public class FastFingers {
 
     public static WebDriver createWebDriver(){
         // Indicamos path al driver aqui
-        System.setProperty("webdriver.chrome.driver","src/main/resources/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","Practica3_CTF/src/main/resources/chromedriver.exe");
 
-        // Configuramos el driver en caso de ser necesario:
         return new ChromeDriver();
     }
 }
-
 
 // python -m http.server 80

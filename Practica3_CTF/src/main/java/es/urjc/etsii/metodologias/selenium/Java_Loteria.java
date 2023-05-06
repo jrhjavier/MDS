@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.Random;
 
-public class Loteria {
+public class Java_Loteria {
     private static final int MAX_NUMBER = 1_234_000_100;
 
     public static void main(String[] args) throws InterruptedException {
@@ -62,7 +62,7 @@ public class Loteria {
 
     public static WebDriver createWebDriver(){
         // Path al driver
-        System.setProperty("webdriver.chrome.driver","src/main/resources/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","Practica3_CTF/src/main/resources/chromedriver.exe");
         return new ChromeDriver();
     }
 }

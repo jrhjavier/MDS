@@ -10,7 +10,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 
-public class Blog {
+public class Testing_Blog {
     public static void main(String[] args) throws InterruptedException {
         var driver = createWebDriver();
 
@@ -39,15 +39,9 @@ public class Blog {
 
 
     public static WebDriver createWebDriver(){
-        // Podemos utilizar tambien Chrome o otros navegadores sin problema
-        // Recordad descargar el Driver apropiado para vuestro navegador
-        // Para firefox: https://github.com/mozilla/geckodriver/releases
-        // Para chrome: Buscar en chrome drivers chrome e instalar según version chrome
+        // Path al driver
+        System.setProperty("webdriver.chrome.driver","Practica3_CTF/src/main/resources/chromedriver.exe");
 
-        // Poned el path al driver aqui
-        System.setProperty("webdriver.chrome.driver","src/main/resources/chromedriver.exe");
-
-        // Configuramos el driver en caso de ser necesario, por ahora lo dejamos tal cual
         return new ChromeDriver();
     }
 

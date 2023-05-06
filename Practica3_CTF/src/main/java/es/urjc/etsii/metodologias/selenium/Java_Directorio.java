@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Directorio {
+public class Java_Directorio {
     public static void main(String[] args) throws InterruptedException {
         var driver = createWebDriver();
         // Visitamos la URL en el navegador
